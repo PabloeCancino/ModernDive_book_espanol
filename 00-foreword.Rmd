@@ -1,53 +1,17 @@
-These are exciting times in statistics and data science education. (I am
-predicting this statement will continue to be true regardless of whether you are
-reading this foreword in 2020 or 2050.) But (isn't there always a but?), as a
-statistics educator, it can also feel a bit overwhelming to stay on top of all
-the new statistical, technological, and pedagogical innovations. I find myself
-constantly asking, "Am I teaching my students the correct content, with the
-relevant software, and in the most effective way?" Before I make all of us feel
-lost at sea, let me point out how great a life raft I have found in
-*ModernDive*. In a sea of intro stats textbooks, *ModernDive* floats to the top
-of my list, and let me tell you why. (Note my use of *ModernDive* here refers to
-the book in its shortened title version. This also matches up nicely with the
-[neat hex sticker](https://moderndive.com/images/logos/hex_blue_text.png) Drs.
-Ismay and Kim created for the cover of *ModernDive*, too.)
+Vivimos tiempos emocionantes en la educación estadística y de ciencias de datos. (Pronostico que esta afirmación seguirá siendo verdadera, independientemente de si estás leyendo este prólogo en 2020 o 2050). Pero (¿no hay siempre un pero?), como educador de estadística, puede resultar un poco abrumador mantenerse al día con todas las nuevas innovaciones estadísticas, tecnológicas y pedagógicas. Me encuentro constantemente preguntándome, "¿Estoy enseñando a mis estudiantes el contenido correcto, con el software relevante, y de la manera más efectiva?" Antes de que todos nos sintamos perdidos en el mar, permíteme señalar qué gran bote salvavidas he encontrado en *ModernDive*. En un mar de libros de texto introductorios a la estadística, *ModernDive* flota hasta el tope de mi lista, y permíteme decirte por qué. (Observa que mi uso de *ModernDive* aquí se refiere al libro en su versión de título abreviado. Esto también coincide agradablemente con la [genial pegatina hexagonal](https://moderndive.com/images/logos/hex_blue_text.png) que los doctores Ismay y Kim crearon para la portada de *ModernDive*, también).
+
 
 ```{r, fig.align="center", echo=FALSE, out.width="70%"}
 include_graphics("images/ModernDive_heart.png")
 ```
 
-My favorite aspect of *ModernDive*, if I must pick a favorite, is that students
-gain experience with the whole data analysis pipeline (see Figure
-\@ref(fig:pipeline-figure)). In particular, *ModernDive* is one of the few intro
-stats textbooks that teaches students how to wrangle data. And, while data
-cleaning may not be as groovy as model building, it's often a prerequisite step!
-The world is full of messy data and *ModernDive* equips students to transform
-their data via the `dplyr` package.
+Si debo elegir un aspecto favorito de *ModernDive*, es que los estudiantes adquieren experiencia con toda la cadena de análisis de datos (ver Figura \@ref(fig:pipeline-figure)). En particular, *ModernDive* es uno de los pocos libros de texto introductorios a la estadística que enseña a los estudiantes cómo manejar los datos. Y, aunque la limpieza de datos puede no ser tan atractiva como la construcción de modelos, ¡a menudo es un paso previo necesario! El mundo está lleno de datos desordenados y *ModernDive* equipa a los estudiantes para transformar sus datos con el paquete `dplyr`.
 
-Speaking of `dplyr`, students of *ModernDive* are exposed to the `tidyverse`
-suite of R packages. Designed with a common structure, `tidyverse` functions are
-written to be easy to learn and use. And, since most intro stats students are
-programming newbies, *ModernDive* carefully walks the students through each new
-function it presents and provides frequent reinforcement through the many
-*Learning checks* dispersed throughout the chapters.
+En cuanto a `dplyr`, los estudiantes de *ModernDive* están expuestos a la suite de paquetes `tidyverse` de R. Diseñadas con una estructura común, las funciones de `tidyverse` están escritas para ser fáciles de aprender y usar. Y, dado que la mayoría de los estudiantes de estadística introductoria son novatos en programación, *ModernDive* guía cuidadosamente a los estudiantes a través de cada nueva función que presenta y proporciona refuerzo frecuente a través de las numerosas *Verificaciones de aprendizaje* dispersas en los capítulos.
 
-Overall, *ModernDive* includes wise choices for the placement of topics.
-Starting with data visualization, *ModernDive* gets students building `ggplot2`
-graphs early on and then continues to reinforce important concepts graphically
-throughout the book. After moving through data wrangling and data importing,
-modeling plays a prominent role, with two chapters devoted to building
-regression models and a later chapter on inference for regression. Lastly,
-statistical inference is presented through a computational lens with
-calculations done via the `infer` package.
+En general, *ModernDive* incluye decisiones acertadas para la ubicación de los temas. Comenzando con la visualización de datos, *ModernDive* hace que los estudiantes construyan gráficos `ggplot2` desde el principio y luego continúa reforzando los conceptos importantes gráficamente a lo largo del libro. Después de avanzar en el manejo e importación de datos, la modelización juega un papel prominente, con dos capítulos dedicados a la construcción de modelos de regresión y un capítulo posterior sobre inferencia para la regresión. Finalmente, la inferencia estadística se presenta a través de una lente computacional con cálculos realizados a través del paquete `infer`.
 
-I first met Drs. Ismay and Kim while attending their 
-[workshop at the 2017 US Conference on Teaching Statistics](https://www.causeweb.org/cause/uscots/uscots17/workshop/3). They
-pushed us as participants to put data first and to use computers, instead of
-math, as the engine for statistical inference. That experience helped me
-modernize my own intro stats course and introduced me to two really
-forward-thinking statistics and data science educators. It has been exciting to
-see *ModernDive* develop and grow into such a wonderful, timely textbook. I hope
-you have decided to dive on in!
+Conocí a los doctores Ismay y Kim mientras asistía a su [taller en la Conferencia de Enseñanza de Estadísticas 2017 en Estados Unidos](https://www.causeweb.org/cause/uscots/uscots17/workshop/3). Nos animaron como participantes a poner los datos en primer lugar y a utilizar las computadoras, en lugar de las matemáticas, como motor para la inferencia estadística. Esa experiencia me ayudó a modernizar mi propio curso de estadística introductoria y me presentó a dos educadores de estadística y ciencias de datos realmente visionarios. Ha sido emocionante ver cómo *ModernDive* se desarrolla y se convierte en un libro de texto tan maravilloso y oportuno. ¡Espero que hayas decidido sumergirte en él!
 
 ```{r echo=FALSE, results="asis"}
 if (is_latex_output()) {
